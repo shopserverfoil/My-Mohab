@@ -70,13 +70,12 @@ client.on('ready', () => {
 
     console.log(`[Codes] ${client.users.size}`)
 
-    client.user.setStatus("idle")
+    client.user.setStatus("")
 
 });
 
 //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
 
-const prefix = "$"
 
 client.on('message', async msg => { // eslint-disable-line
 
