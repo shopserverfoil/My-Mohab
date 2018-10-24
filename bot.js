@@ -1,4 +1,33 @@
-const Discord = require("discord.js");
+const Discord = require('discord.js');
+
+const fs = require('fs')
+
+const client = new Discord.Client();
+
+const prefix = '';
+
+client.on('ready', () => {
+
+    console.log(`Logged in as [ Pharaohs]`);
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const ytdl = require("ytdl-core");
 
@@ -14,7 +43,6 @@ const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 
 const queue = new Map();
 
-const client = new Discord.Client();
 
 /*
 
