@@ -34,5 +34,24 @@ client.on('message', msg => {
 
  
 
+
+
+
+
+
+client.on('message', msg => {
+
+  if (msg.content === 'ضحكني') {
+
+    msg.reply('ضحكني للنكت التحشيشة/n/n نكت متزوجين الضغط عل رقم 1 /n نكت حرامية الضغط عل رقم 2 /n نكات صعيدين الضغط عل رقم 3 /n نكت ');
+
+  }
+
+});
+
+
+
+
+
 client.login(process.env.BOT_TOKEN);
 
