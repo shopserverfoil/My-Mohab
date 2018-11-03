@@ -6,13 +6,24 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
+
+     client.user.setActivity("سبام كل يوم 350 آلف كريديت",{type: 'PLAYING'});
+
+});
   console.log(`Logged in as ${client.user.tag}!`);
 
-client.user.setGame(`I 'Love You mosalah.  💘`,'https://www.twitch.tv/MeeRcY')
 
+ 
 });
 
  
+
+
+
+
+
+
+
 
  
 
