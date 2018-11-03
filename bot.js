@@ -145,4 +145,37 @@ message.channel.sendEmbed(embed).then(message => {message.delete(10000)})
 
 
 
+
+
+
+
+
+
+
+
+
+client.on('message',async message => {
+
+if(message.content === '4') {
+
+  
+ var embed = new Discord.RichEmbed() 
+
+    .setColor('')
+
+    .setDescription('')
+
+    .setImage('https://cdn.discordapp.com/attachments/508335381951807488/508381007708160030/PicsArt_11-03-10.44.05.jpg')
+
+  
+
+message.channel.sendEmbed(embed).then(message => {message.delete(10000)})
+
+}
+
+ });
+
+
+
+
 client.login(process.env.BOT_TOKEN);
