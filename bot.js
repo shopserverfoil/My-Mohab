@@ -27,15 +27,15 @@ client.on('ready', () => {
 
  
 
- clinet.on('message', msg => {
-  
+ client.on('message', msg => {
+
   if (msg.content === 'مهاب') {
 
-  msg.reply('**وش تبي منبي يزق 🗿**');
-   
-   }
-  
-  });
+    msg.reply('**وش تبي منبي يزق 🗿**');
+
+  }
+
+});
 
  
 
@@ -54,15 +54,18 @@ client.on('message', msg => {
  
 
 
-clinet.on('message', msg => {
+client.on('message', msg => {
 
- if (msg.content === 'برب') {
-  
-  msg.rebly('**طيط ولاترجع يلبي.💃**')
-  
+  if (msg.content === 'برب') {
+
+    msg.reply('**طيط ولاترجع يلبي.💃**');
+
   }
 
 });
+
+
+
 
 
 
