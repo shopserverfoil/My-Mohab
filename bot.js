@@ -8,7 +8,7 @@ const prefix = '';
 
 client.on('ready', () => {
 
- client.user.setActivity("سبام كل يوم 350 آلف كريديت",{type: 'PLAYING'});
+ client.user.setActivity("طيز للبيع تعآل خاص",{type: 'PLAYING'});
     
  console.log(`Logged in as [ Pharaohs]`);
 
