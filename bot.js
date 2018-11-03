@@ -8,7 +8,7 @@ const prefix = '';
 
 client.on('ready', () => {
 
- client.user.setActivity("طيز للبيع تعآل خاص",{type: 'PLAYING'});
+ client.user.setActivity("مشغول آلف وربي ",{type: 'PLAYING'});
     
  console.log(`Logged in as [ Pharaohs]`);
 
@@ -203,8 +203,7 @@ if(message.content === '5') {
 
     .setDescription('')
 
-    .setImage('https://cdn.discordapp.com/attachments/508335381951807488/508383552438665222/PicsArt_11-03-10.54.17.jpg')
-  
+    .setImage('https://cdn.discordapp.com/attachments/508335381951807488/508384769965424651/PicsArt_11-03-10.54.17.jpg')
 
 message.channel.sendEmbed(embed).then(message => {message.delete(10000)})
 
