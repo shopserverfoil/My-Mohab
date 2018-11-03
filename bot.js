@@ -83,5 +83,22 @@ client.on('message', msg => {
 
 
 
+
+
+
+
+
+client.on('message', msg => {
+
+  if (msg.content === 'تاني 1') {
+
+    msg.reply('             **قولك في محشش سأل محشش ثاني قاله تخيل نفسك تقوم من النوم و تلقى نفسك ميت قال والله لانتحر.         **');
+
+  }
+
+});
+
+
+
 client.login(process.env.BOT_TOKEN);
 
