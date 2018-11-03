@@ -119,4 +119,30 @@ message.channel.sendEmbed(embed).then(message => {message.delete(10000)})
 
 
 
+client.on('message',async message => {
+
+if(message.content === '3') {
+
+  
+ var embed = new Discord.RichEmbed() 
+
+    .setColor('')
+
+    .setDescription('')
+
+    .setImage('https://cdn.discordapp.com/attachments/508335381951807488/508377108742144020/PicsArt_11-03-10.28.38.jpg')
+  
+
+message.channel.sendEmbed(embed).then(message => {message.delete(10000)})
+
+}
+
+ });
+
+
+
+
+
+
+
 client.login(process.env.BOT_TOKEN);
