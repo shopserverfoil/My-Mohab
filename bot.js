@@ -16,7 +16,15 @@ client.user.setGame(`I 'Love You mosalah.  💘`,'https://www.twitch.tv/MeeRcY')
 
  
 
- 
+ clinet.on('message', msg => {
+  
+  if (msg.content === 'مهاب') {
+
+  msg.reply(**'وش تبي منبي يزق 🗿**');
+   
+   }
+  
+  });
 
  
 
