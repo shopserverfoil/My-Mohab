@@ -8,7 +8,7 @@ const prefix = '';
 
 client.on('ready', () => {
 
- client.user.setActivity("مشغول آلف وربي ",{type: 'PLAYING'});
+ client.user.setActivity("I ' m soory ماما قالت في نوم",{type: 'PLAYING'});
     
  console.log(`Logged in as [ Pharaohs]`);
 
