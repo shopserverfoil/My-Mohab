@@ -313,15 +313,7 @@ client.on('message', msg => {
 
 
 
-client.on('message', msg => {
 
-  if (msg.content === 'تاني 5') {
-
-    msg.reply('**              في بنت حرقت بيتهم ليش؟ صديقها يشتغل في المطافي               **');
-
-  }
-
-});
 
 
 
