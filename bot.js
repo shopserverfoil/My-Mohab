@@ -6,6 +6,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
+client.user.setActivity("سبام كل يوم 350 آلف كريديت",{type: 'PLAYING'});
 
      
 });
@@ -26,16 +27,7 @@ client.on('ready', () => {
 
  
 
- client.on('message', msg => {
-
-  if (msg.content === 'مهاب') {
-
-    msg.reply('**وش تبي منبي يزق 🗿**');
-
-  }
-
-});
-
+ 
  
 
  
@@ -44,7 +36,7 @@ client.on('message', msg => {
 
   if (msg.content === 'السلام عليكم') {
 
-    msg.reply('**وعليكم السلام ولكم يلبي 🌚.**');
+    msg.reply('وعليكم السلام ولكم يلبي 🌚.');
 
   }
 
@@ -53,15 +45,7 @@ client.on('message', msg => {
  
 
 
-client.on('message', msg => {
 
-  if (msg.content === 'برب') {
-
-    msg.reply('**طيط ولاترجع يلبي.💃**');
-
-  }
-
-});
 
 
 
@@ -338,6 +322,15 @@ client.on('message', msg => {
   }
 
 });
+
+
+
+
+
+
+
+
+
 
 client.login(process.env.BOT_TOKEN);
 
