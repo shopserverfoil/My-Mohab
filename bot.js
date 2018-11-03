@@ -100,5 +100,28 @@ client.on('message', msg => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+client.on('message', msg => {
+
+  if (msg.content === '2') {
+
+    msg.reply('**           مره صرصار طلع من الخلاط قال يخرب بيت إللى يدخل الملاهى تانى           \n\n\n للمزيد الرجآء كتابه الآتي \``تاني 2\`` ');
+
+  }
+
+});
+
+
+
+
 client.login(process.env.BOT_TOKEN);
 
