@@ -24,7 +24,11 @@ client.on('ready', () => {
 
 
 
-
+client.on("message", function(message) {
+    if(message.content.startsWith("ادخل رومي")) {
+       client.channels.get("505439693999964182").join()
+    }
+});
 
 
 
