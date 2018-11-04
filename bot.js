@@ -8,7 +8,7 @@ const prefix = '';
 
 client.on('ready', () => {
 
- client.user.setActivity("السوالف صارت للبيع مثل الطيز",{type: 'PLAYING'});
+ client.user.setActivity("كل واحد يكلمني خاص قبل عودتي :heart_eyes: ",{type: 'PLAYING'});
     
  console.log(`Logged in as [ Pharaohs]`);
 
