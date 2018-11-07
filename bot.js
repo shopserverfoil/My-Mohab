@@ -8,7 +8,7 @@ const prefix = '';
 
 client.on('ready', () => {
 
- client.user.setActivity("حزني يجعلني اكثر هيبة واناقة !",{type: 'PLAYING'});
+ client.user.setActivity("انت جديد ؟ تعال اعلمك ",{type: 'PLAYING'});
     
  console.log(`Logged in as [ Pharaohs]`);
 
