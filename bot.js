@@ -8,8 +8,8 @@ const prefix = '';
 
 client.on('ready', () => {
 
- client.user.setActivity("انت جديد ؟ تعال اعلمك ",{type: 'PLAYING'});
-    
+ client.user.setGame(`انت جديد ؟ تعال اعلمك`,'https://www.twitch.tv/MeeRcY')
+ c
  console.log(`Logged in as [ Pharaohs]`);
 
 });
