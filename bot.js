@@ -8,7 +8,7 @@ const prefix = '';
 
 client.on('ready', () => {
 
- client.user.setGame(`انت جديد ؟ تعال اعلمك`,'https://www.twitch.tv/MeeRcY')
+ client.user.setGame(`ممكن ادمن برو بوت !`,'https://www.twitch.tv/MeeRcY')
  
  console.log(`Logged in as [ Pharaohs]`);
 
